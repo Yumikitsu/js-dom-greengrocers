@@ -185,8 +185,23 @@ button {
 
 /* Own stuff */
 
-.item {
+.filtersAndSortings {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+
+.filterButton {
+  width: 100px;
+  margin-right: 175px;
+}
+
+.sortingButton {
+  width: 100px;
+  margin-left: 150px;
+}
+
+.newItemText {
+  height: 105px;
+  width: 150px;
+  margin-bottom: 50px;
 }
